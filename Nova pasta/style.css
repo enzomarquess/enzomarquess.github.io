@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body{
+    background-image: url(Nutricale.png);
+}
+
+.parent{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.paola{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+
+
+}
+
+.paola{
+
+    bottom: 50%;
+    right: 36%;
+
+
+}
