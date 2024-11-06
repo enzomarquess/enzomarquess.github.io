@@ -6,7 +6,8 @@
 
 
 body{
-    background-image: url(Nutricale.png);
+    background:red url('1.png') center center no-repeat;
+    background-size: cover;
 }
 
 .parent{
@@ -26,7 +27,24 @@ body{
 .paola{
 
     bottom: 50%;
-    right: 36%;
+    right: 26%;
+    font-family: fantasy;
+    background-color: white;
+   
+    align-items: center;
 
 
+
+}
+
+
+
+button{
+    background-color: white;
+    border-radius: 5px;
+    width: 150%;
+    height: 30%;
+    box-shadow: 2px 2px 20px gray;
+    color: black;
+    font-family: fantasy;
 }
