@@ -8,13 +8,13 @@ let altura = parseFloat(prompt("Digite sua altura em centímetros: "));
 let resultadoHomem = (66 + (13.7 * peso) + (5 * altura) - (6.8 * idade));
 let resultadoMulher = (665 + (9.6 * peso) + (1.8 * altura) - (4.7 * idade));
 
-function calcularcalorias() {
+function calcularIMC() {
     let resultadoFinal;
     if (sexo === 1) {
-        resultadoFinal = "Você deve ingerir" + resultadoHomem + " calorias.";
+        resultadoFinal = "Você deve ingerir " + resultadoHomem + " calorias.";
     }
     else if (sexo === 2) {
-        resultadoFinal ="Você deve ingerir" + resultadoMulher + " calorias.";
+        resultadoFinal ="Você deve ingerir " + resultadoMulher + " calorias.";
     }
     else {
         resultadoFinal = "Escolha o sexo correto."; 
