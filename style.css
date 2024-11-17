@@ -16,7 +16,7 @@ body{
     height: 100vh;
 }
 
-.paola{
+.vasco{
     position: absolute;
     height: 100px;
     width: 100px;
@@ -24,22 +24,21 @@ body{
 
 }
 
-.paola{
+.vasco{
 
     bottom: 50%;
     right: 26%;
     font-family: fantasy;
     background-color: rgb(255, 255, 255);
     width: 220px;
-    height: 210px;
+    height: 230px;
     left: 65%;
     right: 0%;
     bottom: 20%;
     border-radius: 5px;
     align-items: center;
     box-shadow: 2px 2px 20px black;
-    
-
+    padding: 5px;
 
 
 }
@@ -49,7 +48,7 @@ body{
 button{
     background-color: white;
     border-radius: 5px;
-    width: 100%;
+    width: 90%;
     height: 10%;
     box-shadow: 2px 2px 20px gray;
     color: black;

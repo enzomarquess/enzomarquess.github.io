@@ -2,7 +2,7 @@
 
 .parent{
     position: relative;
-    width: 100%;
+    width: 50%;
     height: 10%;
     bottom: 10%;
     right: 10%;
@@ -40,7 +40,7 @@
 button{
     background-color: white;
     border-radius: 5px;
-    width: 100%;
+    width: 50%;
     height: 20%;
     box-shadow: 2px 2px 20px gray;
     color: black;
@@ -161,3 +161,14 @@ body{
     right: -25%;
   }
   
+ span {
+    position: relative;
+    width: 50%;
+    height: 10%;
+    bottom: 10%;
+    right: 54%;
+    left: 46%;
+    top: 515px;
+    margin: 0%;
+    color: #000;
+ }
